@@ -2135,7 +2135,7 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #2ee4bb;
+			border-color:#6082B6 ;
 		}
 
 	label {
@@ -3854,7 +3854,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 	}
 
-	/*	body.is-ie #wrapper section > header {
+		body.is-ie #wrapper section > header {
 			width: 50%;
 		}
 
@@ -3872,7 +3872,7 @@ input, select, textarea {
 	body.is-ie #wrapper > section > .content > section {
 		width: 100vw;
 	}
-	*/
+
 	@media screen and (max-width: 1280px) {
 
 		body.is-ie #wrapper section > footer {

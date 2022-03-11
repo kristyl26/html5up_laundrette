@@ -386,7 +386,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 											</table>
 										</div>
 										<div><button class="button large" onclick="openForm()">Book your washer and dryer</a></div>
-											<div class="form-popup">
+											<div class="form-popup" id="form-popup">
 												<form action="/action_page.php" class="form-container">
 													<h3>Book your washer and dryer now</h3>
 													<label for="name"><b>Name</b></label>
@@ -395,6 +395,29 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 													<input type="text" placeholder="Your Email" name="email" required>
 													<label for="date"><b>Date</b></label>
 													<input type="date" id="date" name="date" value="DD//MM/YYYY" min="2022-03-11" max="2023-07-31"></label>
+													<label for="time"><b>Time</b></label>
+													<input type="time" id="appt" name="appt"  min="07:00" max="21:00" required>
+													<br><br>
+												
+													<label for="washer">Washer</label>
+													<select>
+														<option value="0">0</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+													</select>
+
+													<label for="dryer">Dryer</label>
+													<select>
+														<option value="0">0</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+													</select>
+													<br>
+													<button type="submit" class="button primary">Submit</button>
+													<button type="button" class="button" onclick="closeForm()">Close</button>
+
 												</form>
 											</div>
 								</div>
