@@ -24,9 +24,7 @@
 							<h1>Wash N Gather</h1>
 							<p>A laundrette for you and me.</p>
 							<a href="index.html#laundry-services-price" class="button large">Book now</a>
-							<ul class="actions">
-								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
-							</ul>
+							
 						</header>
 						<div class="content">
 							<span class="image fill" data-position="center"><img src="images/pic01_laundrette.jpg" alt="" /></span>
@@ -128,8 +126,7 @@
 						<!-- Section -->
 							<section>
 								<header>
-									<h3>1.Laundry Detergent</h3>
-									<p>How do you decide which kind of detergent to buy? There are different kinds of detergent, from liquid to powerder. Here comes the question: <br><strong>Which detergent should I buy?</strong> .</p>
+
 								</header>
 								<div class="content">
 									<span class="image main"><img src="images/pic02_laundry-bottle.jpg" alt="" /></span>
@@ -145,28 +142,18 @@
 									<p><strong>Avoid mixing clothes with different colors together in your washer.</strong></p>
 								</header>
 								<div class="content">
-									<span class="image main"><img src="images/pic02_laundry-bottle.jpg" alt="" /></span>
+									<span class="image main"><img src="images/pic01_washer.jpg" alt="" /></span>
+									<p>It can <strong>prevent colors from blending onto the fabrics</strong>. Your white shirt will then turn into a colorful shirt.</p>
+									</div>
+									<div><ul class="actions">
+								
+										<li><a href="#" class="button large">More tips</a></li>
+									</ul>
 									</div>
 								</div>
 							</section>
 
-						<!-- Section -->
-							<section>
-								<header>
-									<h3>Lorem gravida</h3>
-									<p>Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore.  ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.</p>
-								</header>
-								<div class="content">
-									<div class="gallery">
-										<a href="images/gallery/fulls/08.jpg" class="portrait"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/09.jpg" class="portrait"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/10.jpg" class="landscape"><img src="images/gallery/thumbs/10.jpg" alt="" /></a>
-									</div>
-								</div>
-							</section>
-
-					</div>
-				</section>
+						
 				<!-- Elements -->
 				<!--
 					<section>
@@ -398,7 +385,18 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 												</tfoot> -->
 											</table>
 										</div>
-										<div><a href="index.html#laundry-services-price" class="button large">Book your washer and dryer</a></div>
+										<div><button class="button large" onclick="openForm()">Book your washer and dryer</a></div>
+											<div class="form-popup">
+												<form action="/action_page.php" class="form-container">
+													<h3>Book your washer and dryer now</h3>
+													<label for="name"><b>Name</b></label>
+													<input type="text" placeholder="Your Name" name="name" required>
+													<label for="email"><b>Email</b></label>
+													<input type="text" placeholder="Your Email" name="email" required>
+													<label for="date"><b>Date</b></label>
+													<input type="date" id="date" name="date" value="DD//MM/YYYY" min="2022-03-11" max="2023-07-31"></label>
+												</form>
+											</div>
 								</div>
 
 							</section>
